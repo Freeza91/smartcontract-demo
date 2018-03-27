@@ -4,7 +4,7 @@ contract token {
   uint256 INITIAL_SUPPLY = 66666;
   mapping(address => uint256) balances;
 
-  function token() {
+  function token() public {
     balances[msg.sender] = INITIAL_SUPPLY;
   }
 
