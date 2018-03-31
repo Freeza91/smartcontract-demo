@@ -1,0 +1,32 @@
+{
+  "name": "smartcontract-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freeza91/smartcontract-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Freeza91/smartcontract-demo/issues"
+  },
+  "homepage": "https://github.com/Freeza91/smartcontract-demo#readme",
+  "dependencies": {
+    "npm": "^5.8.0",
+    "promise": "^8.0.1",
+    "rebuild": "^0.1.2",
+    "scrypt": "^6.0.3",
+    "to": "^0.2.9",
+    "update": "^0.7.4",
+    "zeppelin-solidity": "1.8.0"
+  }
+}
